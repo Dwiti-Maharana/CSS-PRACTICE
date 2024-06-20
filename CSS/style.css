@@ -1,0 +1,43 @@
+body {
+    background-color: black;
+}
+h1 {
+    color: rgb(255, 213, 0);
+    text-align: center;
+    background-color: rgb(46, 46, 167);
+}
+p {
+    color: rgb(0, 255, 0);
+    font-family: Verdana;
+    font-size: 20px;
+}
+#para1 {
+    font-family: Verdana;
+    color: white;
+    font-size: 20px;
+    background-color: blue;
+}
+p.center {
+    text-align: center;
+    color: red;
+  }
+  p.center {
+    text-align: center;
+    color: /*red*/ blue;
+  }
+  
+  p.large {
+    font-size: 300%;
+  }
+  .high {
+    background-color: green;
+  }
+  
+  div {
+    background-color: rgb(255, 255, 255);
+    opacity: 70%;
+  }
+  
+  .phigh {
+    background-color: yellow;
+  }

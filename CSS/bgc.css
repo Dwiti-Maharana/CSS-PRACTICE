@@ -1,0 +1,96 @@
+body {
+    background-image: url(tree.gif);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 100px;
+    background-attachment: scroll;
+}
+p.dotted {
+    border-style: dotted;
+    border-width: 7px;
+    border-color: aquamarine;
+}
+p.dashed {
+    text-align: center;
+    border-style: dashed;
+    border-width: 18px 7px;
+    border-color: blue;
+}
+p.solid {
+    border-style: solid ;
+    border-width: 4px 8px;
+    color: blue;
+    text-align: center;
+    border-color: red green blue yellow;
+    background-color: gray;
+}
+p.double {
+    border-style: double;
+    border-width: 8px;
+    border-color: rgb(126, 97, 152);
+}
+p.groove {
+    border-style: groove;
+    border-width: 17px;
+    border-color: red green blue yellow;
+}
+p.ridge {
+    border-style: ridge;
+    border-width: 19px 34px 23px 6px ;
+    border-color: blue red yellow green;
+}
+p.inset {
+    border-style: inset;
+    border-width: 10px;
+    border-color: aquamarine;
+}
+p.outset {
+    border-style: outset;
+    border-width: 10px;
+    border-color: brown;
+}
+p.none {
+    border-top: solid;
+    border-bottom: dashed;
+    border-left: ridge;
+    border-right: inset;
+    text-align: center;
+    border-width: 10px;    
+}
+p.hidden {
+    border-style: hidden;
+    border-width: 19px;
+}
+p.mix {
+    border-style: dotted dashed double groove;
+    border-width: 9px;
+    border-color: aqua;
+}
+p.shorthand {
+    border: 5px solid red;
+}
+p.leftborder {
+    border-left: 6px solid red;
+}
+p.bottomborder {
+    border-bottom: 7px solid red;
+}
+p.normal {
+    border: 3px solid red;
+    padding: 5px;
+}
+p.round {
+    border: 3px solid blue;
+    padding: 8px;
+    border-radius: 5px;
+}
+p.rounder {
+    border: 3px solid red;
+    padding: 10px;
+    border-radius: 8px;
+}
+p.roundest {
+    border: 3px solid red;
+    padding: 5px;
+    border-radius: 15px;
+}

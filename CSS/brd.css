@@ -1,0 +1,19 @@
+body {
+    background-image: url(tree.gif);
+    background-position: right top;
+    margin-right: 20px;
+    background-repeat: no-repeat;
+}
+h1 {
+    border: 2px solid blue;
+    
+    color: aqua;
+}
+h2 {
+    border: 3px solid red;
+    
+}
+#pbg {
+    background-image: url(pbackgroung.jpg);
+}
+#dimg {
